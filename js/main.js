@@ -50,8 +50,8 @@ const [divShow, aboutShow, contactShow, sendComment, openNav, closeNav] = [
 window.onresize = () => windowScale();
 window.onload = () => windowScale(true);
 const windowScale = (l = false) => {
-	if (l) console.log({width: window.outerWidth.toString() + "px"});
-	if (window.outerWidth <= 500) {
+	if (l) console.log({width: /*window.outerWidth*/screen.width.toString() + "px"});
+	if (/*window.outerWidth*/screen.width <= 500) {
 		document.querySelector("nav.desktop").style.display = "none";
 		document.querySelector("nav.mobile").style.display = "block";
 		document.getElementById("title").style.padding = 0;
