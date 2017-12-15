@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Site WEB de Jules Nadeau, créé par Paul-Louis Mas. Tous droits réservés Paul-Louis Mas 2017">
+		<title>Jules Nadeau</title>
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link rel="icon" type="image/png" href="./ressources/favicon.png">
+		<script type="text/javascript" src="./js/main.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="https://rawgit.com/tuupola/jquery_lazyload/2.x/lazyload.js"></script>
+	</head>
+	<body>
+		<div class="nav">
+			<ul id="title" class="no-bullet" style="font-size: smaller;"><li><a href="" style="outline: 0; text-decoration: none;">JULES NADEAU</a></li></ul>
+			<nav class="desktop">
+				<ul class="no-bullet" style="font-size: smaller;">
+					<!-- Header -->
+					<li class="blank-element"></li>
+					<li style="padding: 0;">Galerie</li>
+					<!-- Different pages -->
+					<li class="navnav current"><a onclick="divShow(1)">/001</a></li>
+					<li class="navnav"><a onclick="divShow(2)">/002</a></li>
+					<li class="navnav"><a onclick="divShow(3)">/003</a></li>
+					<li class="navnav"><a onclick="divShow(4)">/004</a></li>
+					<li class="navnav"><a onclick="divShow(5)">/005</a></li>
+					<li class="navnav"><a onclick="divShow(6)">/006</a></li>
+					<li class="navnav"><a onclick="divShow(7)">/007</a></li>
+					<li class="navnav"><a onclick="divShow(8)">/008</a></li>
+					<li class="navnav"><a onclick="divShow(9)">/009</a></li>
+					<li class="navnav"><a onclick="divShow(10)">/010</a></li>
+					<li class="navnav"><a onclick="divShow(11)">/011</a></li>
+					<li class="blank-element"></li>
+					<li class="navnav"><a onclick="aboutShow()" id="about">À propos</a></li>
+					<li class="blank-element"></li>
+					<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>
+				</ul>
+			</nav>
+			<nav class="mobile">
+				<a id="openNav" onclick="openNav()" style="border-radius: 15%; border: 1px solid #777777;">&#9776;</a>
+				<div class="sidenav">
+					<ul class="no-bullet" style="font-size: smaller;">
+						<!-- Header -->
+						<a id="closeNav" onclick="closeNav()">&times;</a>
+						<li><a href="" style="outline: 0; text-decoration: none;">JULES NADEAU</a></li>
+						<li class="blank-element"></li>
+						<li class="blank-element"></li>
+						<li style="padding: 0;">Galerie</li>
+						<!-- Different pages -->
+						<li class="navnav current"><a onclick="divShow(1)">/001</a></li>
+						<li class="navnav"><a onclick="divShow(2)">/002</a></li>
+						<li class="navnav"><a onclick="divShow(3)">/003</a></li>
+						<li class="navnav"><a onclick="divShow(4)">/004</a></li>
+						<li class="navnav"><a onclick="divShow(5)">/005</a></li>
+						<li class="navnav"><a onclick="divShow(6)">/006</a></li>
+						<li class="navnav"><a onclick="divShow(7)">/007</a></li>
+						<li class="navnav"><a onclick="divShow(8)">/008</a></li>
+						<li class="navnav"><a onclick="divShow(9)">/009</a></li>
+						<li class="navnav"><a onclick="divShow(10)">/010</a></li>
+						<li class="navnav"><a onclick="divShow(11)">/011</a></li>
+						<li class="blank-element"></li>
+						<li class="navnav"><a onclick="aboutShow()" id="about">À propos</a></li>
+						<li class="blank-element"></li>
+						<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="container">
+			<div id="001" class="element dispt">
+				<img data-src="./ressources/img/001/001.jpg" src="./ressources/img/001/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/001/002.jpg" src="./ressources/img/001/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/001/003.jpg" src="./ressources/img/001/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/001/004.jpg" src="./ressources/img/001/thumbnail/004.jpg" class="lazyload">
+				<p><span class="center info">Illford HP5+<br />Leica M6<br />Août 2017</span></p>
+			</div>
+			<div id="002" class="element dispf">
+				<img data-src="./ressources/img/002/001.jpg" src="./ressources/img/002/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/002/002.jpg" src="./ressources/img/002/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/002/003.jpg" src="./ressources/img/002/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/002/004.jpg" src="./ressources/img/002/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/002/005.jpg" src="./ressources/img/002/thumbnail/005.jpg" class="lazyload">
+				<p><span class="center info">Agfa 400<br />Leica M6<br />Septembre 2017</span></p>
+			</div>
+			<div id="003" class="element dispf">
+				<img data-src="./ressources/img/003/001.jpg" src="./ressources/img/003/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/002.jpg" src="./ressources/img/003/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/003.jpg" src="./ressources/img/003/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/004.jpg" src="./ressources/img/003/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/005.jpg" src="./ressources/img/003/thumbnail/005.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/006.jpg" src="./ressources/img/003/thumbnail/006.jpg" class="lazyload">
+				<img data-src="./ressources/img/003/007.jpg" src="./ressources/img/003/thumbnail/007.jpg" class="lazyload">
+				<p><span class="center info">Agfa 400<br />Leica M6<br />Octobre 2017</span></p>
+			</div>
+			<div id="004" class="element dispf">
+				<img data-src="./ressources/img/004/001.jpg" src="./ressources/img/004/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/004/002.jpg" src="./ressources/img/004/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/004/003.jpg" src="./ressources/img/004/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/004/004.jpg" src="./ressources/img/004/thumbnail/004.jpg" class="lazyload">
+				<p><span class="center info">Agfa 400<br />Leica M6<br />Octobre 2017</span></p>
+			</div>
+			<div id="005" class="element dispf">
+				<img data-src="./ressources/img/005/001.jpg" src="./ressources/img/005/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/005/002.jpg" src="./ressources/img/005/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/005/003.jpg" src="./ressources/img/005/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/005/004.jpg" src="./ressources/img/005/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/005/005.jpg" src="./ressources/img/005/thumbnail/005.jpg" class="lazyload">
+				<p><span class="center info">Illford Delta 100<br />Leica M6<br />Octobre 2017</span></p>
+			</div>
+			<div id="006" class="element dispf">
+				<img data-src="./ressources/img/006/001.jpg" src="./ressources/img/006/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/006/002.jpg" src="./ressources/img/006/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/006/003.jpg" src="./ressources/img/006/thumbnail/003.jpg" class="lazyload">
+				<p><span class="center info">Illford Delta 100<br />Leica M6<br />Octobre 2017</span></p>
+			</div>
+			<div id="007" class="element dispf">
+				<img data-src="./ressources/img/007/001.jpg" src="./ressources/img/007/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/007/002.jpg" src="./ressources/img/007/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/007/003.jpg" src="./ressources/img/007/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/007/004.jpg" src="./ressources/img/007/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/007/005.jpg" src="./ressources/img/007/thumbnail/005.jpg" class="lazyload">
+				<p><span class="center info">Fuji Neopan Acros 100<br />Leica M6<br />Novembre 2017</span></p>
+			</div>
+			<div id="008" class="element dispf">
+				<img data-src="./ressources/img/008/001.jpg" src="./ressources/img/008/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/008/002.jpg" src="./ressources/img/008/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/008/003.jpg" src="./ressources/img/008/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/008/004.jpg" src="./ressources/img/008/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/008/005.jpg" src="./ressources/img/008/thumbnail/005.jpg" class="lazyload">
+				<p><span class="center info">Illford Delta 100 (à 400)<br />Leica M6<br />Décembre 2017</span></p>
+			</div>
+			<div id="009" class="element dispf">
+				<img data-src="./ressources/img/009/001.jpg" src="./ressources/img/009/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/009/002.jpg" src="./ressources/img/009/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/009/003.jpg" src="./ressources/img/009/thumbnail/003.jpg" class="lazyload">
+				<p><span class="center info">Illford Hp5 400<br />Leica M6<br />Décembre 2017</span></p>
+			</div>
+			<div id="010" class="element dispf">
+				<img data-src="./ressources/img/010/001.jpg" src="./ressources/img/010/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/010/002.jpg" src="./ressources/img/010/thumbnail/002.jpg" class="lazyload">
+				<img data-src="./ressources/img/010/003.jpg" src="./ressources/img/010/thumbnail/003.jpg" class="lazyload">
+				<img data-src="./ressources/img/010/004.jpg" src="./ressources/img/010/thumbnail/004.jpg" class="lazyload">
+				<img data-src="./ressources/img/010/005.jpg" src="./ressources/img/010/thumbnail/005.jpg" class="lazyload">
+				<p><span class="center info">Efke R50<br />Hasselblad 500c/m<br />Décembre 2017</span></p>
+			</div>
+			<div id="011" class="element dispf">
+				<img data-src="./ressources/img/011/001.jpg" src="./ressources/img/011/thumbnail/001.jpg" class="lazyload">
+				<img data-src="./ressources/img/011/002.jpg" src="./ressources/img/011/thumbnail/002.jpg" class="lazyload">
+				<p><span class="center info">Lucky 400<br />Hasselblad 500 c/m<br />Décembre 2017</span></p>
+			</div>
+			<div id="about" class="element al dispf">
+				<h3>À propos</h3>
+				<table width="90%">
+					<tr>
+						<td style="text-align: left; left: 0; padding-left: 5%;" width="50%">
+							<img src="./ressources/jules.jpg" width="50%" />
+						</td>
+						<td style="text-align: left; right: 0; line-height: 200%;" width="50%">
+							<p>
+								Salut!<br /><br />
+								Étudiant montréalais de 18 ans et photographe autodidacte, j’apporte ma caméra partout où je vais. Je passe la majeure partie de mon temps libre à développer dans mon sous sol. Ce site regroupe chacun de mes rouleaux.
+								Si vous avez des questions ou désirez tout simplement dire bonjour, n’hésitez pas à me contacter!
+							</p>
+							<p style="padding-top: 10px;">
+								Pour toutes questions/requêtes, remplissez le formulaire ci-bas ou contactez moi au:<br />
+								<a href="mailto:julesjulesnadeau@yahoo.ca">julesjulesnadeau@yahoo.ca</a>
+							</p>
+						</td>
+					</tr>
+				</table>
+				<p class="footer">
+					<span style="float: right; text-align: right; opacity: 50%; color: #AAAAAA; right: 0;">
+						Site WEB créé et réalisé par <a href="https://paullouismas.github.io" target="_blank">Paul-Louis Mas</a>
+					</span>
+				</p>
+			</div>
+		</div>
+		<script type="text/javascript">
+			lazyload(); // Allow rendering of thumbnails before full sized pictures
+		</script>
+	</body>
+</html>
