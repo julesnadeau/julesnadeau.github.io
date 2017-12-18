@@ -187,7 +187,7 @@
 			</div>
 		</div>
 		<script type="text/javascript">
-			lazyload(); // Allow rendering of thumbnails before full sized pictures
+			if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent)) lazyload(); // Allow rendering of thumbnails before full sized pictures only if user is not on mobile device
 		</script>
 	</body>
 </html>
