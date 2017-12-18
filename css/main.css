@@ -31,6 +31,10 @@ nav ul li.navnav {
 	transition-duration: 0.1s;
 }
 nav ul li.navnav:hover { color: #FF0000; }
+nav.desktop { display: block; }
+nav.mobile { display: none; }
+
+/* div HTML tag */
 div.container {
 	text-align: center;
 	width: 85%;
@@ -159,4 +163,9 @@ form input {
 
 @media screen and (max-height: 450px) {
 	.sidenav { padding-top: 15px; }
+}
+@media screen and (max-width: 500px) {
+	nav.desktop { display: none; }
+	nav.mobile { display: block; }
+	#title { padding: 0; }
 }
