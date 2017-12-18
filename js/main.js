@@ -47,16 +47,4 @@ const [divShow, aboutShow, contactShow, sendComment, openNav, closeNav] = [
 		document.querySelector("div.sidenav").style.width = "0";
 		document.body.style.backgroundColor = "white";
 	}];
-window.onresize = () => windowScale();
-window.onload = () => windowScale(true);
-const windowScale = (l = false) => {
-	if (l) console.log({width: screen.width.toString() + "px"});
-	/*if (screen.width <= 500) {
-		document.querySelector("nav.desktop").style.display = "none";
-		document.querySelector("nav.mobile").style.display = "block";
-		document.getElementById("title").style.padding = 0;
-	} else {
-		document.querySelector("nav.desktop").style.display = "block";
-		document.querySelector("nav.mobile").style.display = "none";
-	}*/
 }
