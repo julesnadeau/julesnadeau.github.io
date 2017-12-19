@@ -198,4 +198,5 @@ form input {
 @media screen and (min-width: 500px) {
 	#openNav { display: none; }
 	#closeNav { display: none; }
+	#title { display: none; }
 }
