@@ -131,6 +131,10 @@ form input {
 .footer {
 	position: absolute;
 	bottom: 0;
+	left: 10px;
+	overflow: hidden;
+	height: 20px;
+	width: 100%;
 }
 
 /* NAVBAR */
