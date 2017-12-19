@@ -31,8 +31,8 @@ nav ul li.navnav {
 	transition-duration: 0.1s;
 }
 nav ul li.navnav:hover { color: #FF0000; }
-nav.desktop { display: block; }
-nav.mobile { display: none; }
+/*nav.desktop { display: block; }
+nav.mobile { display: none; }*/
 
 /* div HTML tag */
 div.container {
