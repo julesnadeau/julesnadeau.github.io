@@ -134,7 +134,7 @@ form input {
 }
 
 /* NAVBAR */
-.sidenav {
+/*.sidenav {
 	height: 100%;
 	width: 0;
 	position: fixed;
@@ -159,13 +159,38 @@ form input {
 	top: 0;
 	right: 25px;
 	margin-left: 50px;
-}
+}*/
 
 @media screen and (max-height: 450px) {
 	.sidenav { padding-top: 15px; }
 }
 @media screen and (max-width: 500px) {
-	nav.desktop { display: none; }
+	/*nav.desktop { display: none; }
 	nav.mobile { display: block; }
-	#title { padding: 0; }
+	#title { padding: 0; }*/
+	/* NAVBAR */
+	.sidenav {
+		height: 100%;
+		width: 0;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		transition: 0.5s;
+		padding-top: 60px;
+		background: #FFFFFF;
+		border-right: 1px solid rgba(0, 0, 0, 0.1);
+	}
+	.sidenav a {
+		padding: 8px 8px 8px 32px;
+		display: block;
+		transition: 0.3s;
+	}
+	.sidenav .closebtn {
+		position: absolute;
+		top: 0;
+		right: 25px;
+		margin-left: 50px;
+	}
 }
