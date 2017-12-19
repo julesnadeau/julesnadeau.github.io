@@ -1,5 +1,5 @@
 const divShow = (d = -1) => {
-	let [e, l, i, j] = [document.querySelectorAll("div.element"), [document.querySelector("nav.desktop").querySelectorAll("li.navnav"), document.querySelector("nav.mobile").querySelectorAll("li.navnav")], 0, 0];
+	let [e, l, i, j] = [document.querySelectorAll("div.element"), [document.querySelector("nav").querySelectorAll("li.navnav")], 0, 0];
 	for (i = 0; i < e.length; i++)
 		if (i == (d - 1)) {
 			e[i].classList.add("dispt");
