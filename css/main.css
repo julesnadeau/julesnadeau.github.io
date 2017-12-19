@@ -194,3 +194,8 @@ form input {
 		margin-left: 50px;
 	}
 }
+
+@media screen and (min-width: 500px) {
+	#openNav { display: none; }
+	#closeNav { display: none; }
+}
