@@ -24,22 +24,6 @@ const aboutShow = () => {
 	document.querySelector("div#about").classList.remove("dispf");
 	for (let i = 0; i < document.querySelectorAll("a#about").length; i++) document.querySelectorAll("a#about")[i].classList.add("current");
 };
-const sendComment = () => {
-	const [x, m] = [new XMLHttpRequest(), document.querySelector("div#contact").querySelector("form")];
-	const q = "name=" + encodeURIComponent(m.querySelector("input#name").value) + "&from=" + encodeURIComponent(/\@/g.test(m.querySelector("input#from").value) ? m.querySelector("input#from").value : "unknown@example.com") + "&message=" + encodeURIComponent(m.querySelector("input#message").value) + "&to=" + encodeURIComponent(m.querySelector("input#to").value) + "&subject=" + encodeURIComponent(m.querySelector("input#subject").value);
-	x.open("POST", "http://sendhttpsecureemail.000webhostapp.com/", false);
-	x.send(q);
-	if (x.status === 200 || x.status === 0) {
-		alert("Question/requête envoyé!");
-		m.querySelector("input#name").value = null;
-		m.querySelector("input#from").value = null;
-		m.querySelector("input#message").value = null;
-	} else {
-		alert("Il semblerait qu'il y ai une erreur...");
-		console.log({"query":q,"request":x});
-	}
-	console.log(x);
-};
 const openNav = () => {
 	document.querySelector("div.sidenav").style.width = "250px";
 	document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
