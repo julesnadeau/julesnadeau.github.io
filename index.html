@@ -28,12 +28,12 @@
 				JULES NADEAU
 			</a>
 			<nav>
-				<a id="openNav" onclick="openNav()" style="border-radius: 15%; border: 1px solid #777777;">
+				<a id="openNav" onclick="Nav.open()" style="border-radius: 15%; border: 1px solid #777777;">
 					&#9776;
 				</a>
 				<div class="sidenav">
 					<ul class="no-bullet" style="font-size: smaller;">
-						<a id="closeNav" onclick="closeNav()">
+						<a id="closeNav" onclick="Nav.close()">
 							&times;
 						</a>
 						<li>
@@ -46,64 +46,64 @@
 						<li style="padding: 0;">
 							Galerie
 						</li>
-						<li class="navnav current">
-							<a onclick="divShow(1)">
+						<li class="navnav current" id="/001">
+							<a onclick="divShow('/001')">
 								/001
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(2)">
+						<li class="navnav" id="/002">
+							<a onclick="divShow('/002')">
 								/002
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(3)">
+						<li class="navnav" id="/003">
+							<a onclick="divShow('/003')">
 								/003
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(4)">
+						<li class="navnav" id="/004">
+							<a onclick="divShow('/004')">
 								/004
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(5)">
+						<li class="navnav" id="/005">
+							<a onclick="divShow('/005')">
 								/005
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(6)">
+						<li class="navnav" id="/006">
+							<a onclick="divShow('/006')">
 								/006
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(7)">
+						<li class="navnav" id="/007">
+							<a onclick="divShow('/007')">
 								/007
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(8)">
+						<li class="navnav" id="/008">
+							<a onclick="divShow('/008')">
 								/008
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(9)">
+						<li class="navnav" id="/009">
+							<a onclick="divShow('/009')">
 								/009
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(10)">
+						<li class="navnav" id="/010">
+							<a onclick="divShow('/010')">
 								/010
 							</a>
 						</li>
-						<li class="navnav">
-							<a onclick="divShow(11)">
+						<li class="navnav" id="/011">
+							<a onclick="divShow('/011')">
 								/011
 							</a>
 						</li>
 						<li class="blank-element"></li>
-						<li class="navnav">
-							<a onclick="aboutShow()" id="about">
+						<li class="navnav" id="about">
+							<a onclick="divShow('about')" id="about">
 								À propos
 							</a>
 						</li>
