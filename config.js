@@ -118,6 +118,13 @@ var __config__ = {
 			], 
 			description: 'Lucky 400<br />Hasselblad 500 c/m<br />Décembre 2017'
 		}, 
+		{
+			name: '/012', 
+			images: [
+				"./ressources/img/012/thumbnail/001.jpg"
+			], 
+			description: 'Lucky 400<br />Hasselblad 500 c/m<br />Décembre 2017'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
