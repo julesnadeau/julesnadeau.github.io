@@ -125,6 +125,14 @@ var __config__ = {
 			], 
 			description: 'Lucky 400<br />Hasselblad 500 c/m<br />Décembre 2017'
 		}, 
+		{
+			name: '/013', 
+			images: [
+				"./ressources/img/013/thumbnail/001.jpg", 
+				"./ressources/img/013/thumbnail/002.jpg"
+			], 
+			description: 'Illford Delta 100 (à 400)<br />Leica M6<br />Décembre 2017'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
