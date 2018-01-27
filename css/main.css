@@ -54,6 +54,7 @@ img.ms-logo {
 img {
 	width: 50%;
 	padding: 10px;
+	pointer-events: none;
 }
 
 a {
