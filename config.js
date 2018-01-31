@@ -133,6 +133,14 @@ var __config__ = {
 			], 
 			description: 'Fujifilm X-TRA 400<br />Leica M6<br />Décembre 2017'
 		}, 
+		{
+			name: '/014', 
+			images: [
+				"./ressources/img/014/thumbnail/001.jpg", 
+				"./ressources/img/013/thumbnail/002.jpg"
+			], 
+			description: 'Illford Delta3200 à 800<br />Leica M6<br />Noël 2017'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
