@@ -137,7 +137,8 @@ var __config__ = {
 			name: '/014', 
 			images: [
 				"./ressources/img/014/thumbnail/001.jpg", 
-				"./ressources/img/013/thumbnail/002.jpg"
+				"./ressources/img/014/thumbnail/002.jpg", 
+				"./ressources/img/014/thumbnail/003.jpg"
 			], 
 			description: 'Illford Delta3200 à 800<br />Leica M6<br />Noël 2017'
 		}, 
