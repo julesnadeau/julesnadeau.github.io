@@ -249,6 +249,16 @@ var __config__ = {
 			], 
 			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
 		}, 
+		{
+			name: '/022', 
+			images: [
+				"./ressources/img/022/thumbnail/001.jpg", 
+				"./ressources/img/022/thumbnail/002.jpg", 
+				"./ressources/img/022/thumbnail/003.jpg", 
+				"./ressources/img/022/thumbnail/004.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
