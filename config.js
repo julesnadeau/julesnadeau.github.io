@@ -203,6 +203,23 @@ var __config__ = {
 			], 
 			description: 'Agfa APX25 à 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
 		}, 
+		{
+			name: '/019', 
+			images: [
+				"./ressources/img/019/thumbnail/001.jpg", 
+				"./ressources/img/019/thumbnail/002.jpg", 
+				"./ressources/img/019/thumbnail/003.jpg", 
+				"./ressources/img/019/thumbnail/004.jpg", 
+				"./ressources/img/019/thumbnail/005.jpg",
+				"./ressources/img/019/thumbnail/006.jpg",
+				"./ressources/img/019/thumbnail/007.jpg", 
+				"./ressources/img/019/thumbnail/008.jpg", 
+				"./ressources/img/019/thumbnail/009.jpg", 
+				"./ressources/img/019/thumbnail/010.jpg",
+				"./ressources/img/019/thumbnail/011.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
