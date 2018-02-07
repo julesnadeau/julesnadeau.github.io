@@ -220,6 +220,35 @@ var __config__ = {
 			], 
 			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
 		}, 
+		{
+			name: '/020', 
+			images: [
+				"./ressources/img/020/thumbnail/001.jpg", 
+				"./ressources/img/020/thumbnail/002.jpg", 
+				"./ressources/img/020/thumbnail/003.jpg", 
+				"./ressources/img/020/thumbnail/004.jpg", 
+				"./ressources/img/020/thumbnail/005.jpg",
+				"./ressources/img/020/thumbnail/006.jpg",
+				"./ressources/img/020/thumbnail/007.jpg", 
+				"./ressources/img/020/thumbnail/008.jpg", 
+				"./ressources/img/020/thumbnail/009.jpg", 
+				"./ressources/img/020/thumbnail/010.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
+		{
+			name: '/021', 
+			images: [
+				"./ressources/img/021/thumbnail/001.jpg", 
+				"./ressources/img/021/thumbnail/002.jpg", 
+				"./ressources/img/021/thumbnail/003.jpg", 
+				"./ressources/img/021/thumbnail/004.jpg", 
+				"./ressources/img/021/thumbnail/005.jpg",
+				"./ressources/img/021/thumbnail/006.jpg",
+				"./ressources/img/021/thumbnail/007.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
