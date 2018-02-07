@@ -149,7 +149,6 @@ var __config__ = {
 				"./ressources/img/015/thumbnail/002.jpg", 
 				"./ressources/img/015/thumbnail/003.jpg", 
 				"./ressources/img/015/thumbnail/004.jpg", 
-				"./ressources/img/015/thumbnail/005.jpg", 
 				"./ressources/img/015/thumbnail/006.jpg",
 				"./ressources/img/015/thumbnail/007.jpg", 
 				"./ressources/img/015/thumbnail/008.jpg"
