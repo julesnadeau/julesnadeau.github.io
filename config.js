@@ -201,7 +201,7 @@ var __config__ = {
 				"./ressources/img/018/thumbnail/007.jpg", 
 				"./ressources/img/018/thumbnail/008.jpg"
 			], 
-			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+			description: 'Agfa APX25 à 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
 		}, 
 		'<li class="blank-element"></li>', 
 		{
