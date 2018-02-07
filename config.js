@@ -155,6 +155,22 @@ var __config__ = {
 			], 
 			description: 'Illford Delta3200 à 800<br />Leica M6<br />Noël 2017'
 		}, 
+		{
+			name: '/016', 
+			images: [
+				"./ressources/img/016/thumbnail/001.jpg", 
+				"./ressources/img/016/thumbnail/002.jpg", 
+				"./ressources/img/016/thumbnail/003.jpg", 
+				"./ressources/img/016/thumbnail/004.jpg", 
+				"./ressources/img/016/thumbnail/006.jpg",
+				"./ressources/img/016/thumbnail/007.jpg", 
+				"./ressources/img/016/thumbnail/008.jpg", 
+				"./ressources/img/016/thumbnail/009.jpg", 
+				"./ressources/img/016/thumbnail/011.jpg", 
+				"./ressources/img/016/thumbnail/012.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
