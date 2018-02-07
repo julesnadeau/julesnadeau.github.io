@@ -258,8 +258,8 @@ var __config__ = {
 	<br />
 	Étudiant montréalais de 18 ans et photographe autodidacte, 
 	j’apporte ma caméra partout où je vais. 
-	Je passe la majeure partie de mon temps libre à développer dans mon sous sol. 
-	Ce site regroupe chacun de mes rouleaux. 
+	J'aime bien utiliser mes temps libres pour développer et imprimer mes rouleaux de film. 
+	Ce site regroupe chacun de ces rouleaux. 
 	Si vous avez des questions ou désirez tout simplement dire bonjour, 
 	n’hésitez pas à me contacter!<br />
 	<br />
