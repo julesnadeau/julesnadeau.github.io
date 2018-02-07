@@ -142,6 +142,20 @@ var __config__ = {
 			], 
 			description: 'Illford Delta3200 à 800<br />Leica M6<br />Noël 2017'
 		}, 
+		{
+			name: '/015', 
+			images: [
+				"./ressources/img/015/thumbnail/001.jpg", 
+				"./ressources/img/015/thumbnail/002.jpg", 
+				"./ressources/img/015/thumbnail/003.jpg", 
+				"./ressources/img/015/thumbnail/004.jpg", 
+				"./ressources/img/015/thumbnail/005.jpg", 
+				"./ressources/img/015/thumbnail/006.jpg",
+				"./ressources/img/015/thumbnail/007.jpg", 
+				"./ressources/img/015/thumbnail/008.jpg"
+			], 
+			description: 'Illford Delta3200 à 800<br />Leica M6<br />Noël 2017'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
