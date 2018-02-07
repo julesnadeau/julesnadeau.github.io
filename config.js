@@ -171,6 +171,38 @@ var __config__ = {
 			], 
 			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
 		}, 
+		{
+			name: '/017', 
+			images: [
+				"./ressources/img/017/thumbnail/001.jpg", 
+				"./ressources/img/017/thumbnail/002.jpg", 
+				"./ressources/img/017/thumbnail/003.jpg", 
+				"./ressources/img/017/thumbnail/004.jpg", 
+				"./ressources/img/017/thumbnail/005.jpg",
+				"./ressources/img/017/thumbnail/006.jpg",
+				"./ressources/img/017/thumbnail/007.jpg", 
+				"./ressources/img/017/thumbnail/008.jpg", 
+				"./ressources/img/017/thumbnail/009.jpg", 
+				"./ressources/img/017/thumbnail/010.jpg",
+				"./ressources/img/017/thumbnail/011.jpg", 
+				"./ressources/img/017/thumbnail/012.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
+		{
+			name: '/018', 
+			images: [
+				"./ressources/img/018/thumbnail/001.jpg", 
+				"./ressources/img/018/thumbnail/002.jpg", 
+				"./ressources/img/018/thumbnail/003.jpg", 
+				"./ressources/img/018/thumbnail/004.jpg", 
+				"./ressources/img/018/thumbnail/005.jpg",
+				"./ressources/img/018/thumbnail/006.jpg",
+				"./ressources/img/018/thumbnail/007.jpg", 
+				"./ressources/img/018/thumbnail/008.jpg"
+			], 
+			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+		}, 
 		'<li class="blank-element"></li>', 
 		{
 			name: 'À propos', 
