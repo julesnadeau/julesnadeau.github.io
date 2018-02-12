@@ -284,10 +284,9 @@ var __config__ = {
 				"./ressources/img/023/thumbnail/020.jpg", 
 				"./ressources/img/023/thumbnail/021.jpg",
 				"./ressources/img/023/thumbnail/022.jpg",
-				"./ressources/img/023/thumbnail/023.jpg",
-				"./ressources/img/023/thumbnail/024.jpg"
+				"./ressources/img/023/thumbnail/023.jpg"
 			], 
-			description: 'Efke 50<br />Hasselblad 500 c/m<br />18 Janvier 2018'
+			description: 'Illford Pan F PLUS 50<br />Leica M6<br />18 Janvier 2018'
 		},
 		'<li class="blank-element"></li>', 
 		{
