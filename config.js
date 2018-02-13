@@ -295,10 +295,8 @@ var __config__ = {
 			description: `<p style="text-align:left;right:0;line-height:200%;width:90%;">
 	Salut!<br />
 	<br />
-	Étudiant montréalais de 18 ans et photographe autodidacte, 
-	j’apporte ma caméra partout où je vais. 
-	J'aime bien utiliser mes temps libres pour développer et imprimer mes rouleaux de film. 
-	Ce site regroupe chacun de ces rouleaux. 
+	Étudiant montréalais de 18 ans et photographe à mes heures, 
+	je vous invite à me suivre dans mon aventure analogique à travers vos écrans. 
 	Si vous avez des questions ou désirez tout simplement dire bonjour, 
 	n’hésitez pas à me contacter!<br />
 	<br />
