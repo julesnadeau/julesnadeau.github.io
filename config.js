@@ -296,7 +296,7 @@ var __config__ = {
 	Salut!<br />
 	<br />
 	Étudiant montréalais de 18 ans et photographe à mes heures, 
-	Je vous invite à suivre dans mon aventure argentique à travers votre écran.<br />
+	je vous invite à suivre dans mon aventure argentique à travers votre écran.<br />
 	Ce site regroupe l'enssemble de mes roulaux dans un ordre chronologique.
 	<br />
 	Si vous avez des questions ou désirez tout simplement dire bonjour, 
