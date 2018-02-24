@@ -1,13 +1,15 @@
 const app = {
 	build: (a, b = d => void(d), c = undefined) => {
-		let nav = [], container = [], oc = 0;
+		let nav = [], 
+			container = [], 
+			oc = 0;
 
 		if (a.elements)
 			a
 				.elements
 				.forEach(
 					e => 
-						(typeof e == 'object') ? 
+						typeof e == 'object' ? 
 						(nav = nav
 						 	.concat(
 								'<li class="navnav' + 
