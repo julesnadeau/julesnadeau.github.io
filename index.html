@@ -30,7 +30,10 @@
 			</h1>
 		</center>
 		<script type="text/javascript">
-			app.build(__config__, n => !/iphone|android|samsung|blackberry/ig.test(navigator.userAgent) ? lazyload() : void(n), null);
+			app.build(__config__, function(n) {
+				if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent))
+					lazyload();
+			}, null);
 		</script>
 	</body>
 </html>
