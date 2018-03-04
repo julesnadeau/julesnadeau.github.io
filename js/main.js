@@ -41,7 +41,10 @@ const app = {
 						 			oc++) : 
 								(nav = nav.concat(e)));
 
-		document.body.innerHTML = '<div class="nav"><a href="" id="title" style="outline: 0; text-decoration: none; font-size: smaller; padding-bottom: 5px; padding-left: 5px;">JULES NADEAU</a><nav><a id="openNav" onclick="Nav.open()" style="border-radius: 15%; border: 1px solid #777777;">&#9776;</a><div class="sidenav"><ul class="no-bullet" style="font-size: smaller;"><a id="closeNav" onclick="Nav.close()">&times;</a>\n' + nav.join('\n') + '\n</ul></div></nav></div>\n' + '<div class="container">\n' + container.join('\n') + '\n</div>\n';
+		//document.body.innerHTML = '<div class="nav"><a href="" id="title" style="outline: 0; text-decoration: none; font-size: smaller; padding-bottom: 5px; padding-left: 5px;">JULES NADEAU</a><nav><a id="openNav" onclick="Nav.open()" style="border-radius: 15%; border: 1px solid #777777;">&#9776;</a><div class="sidenav"><ul class="no-bullet" style="font-size: smaller;"><a id="closeNav" onclick="Nav.close()">&times;</a>\n' + nav.join('\n') + '\n</ul></div></nav></div>\n' + '<div class="container">\n' + container.join('\n') + '\n</div>\n';
+		
+		document.querySelector('div.sidenav').querySelector('ul').innerHTML += nav.join('\n');
+		document.querySelector('div.container').innerHTML += container.join('\n');
 
 		b(c);
 	}
