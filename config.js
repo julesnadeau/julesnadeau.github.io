@@ -1,7 +1,7 @@
 var __config__ = {
 	elements: [
 		'<li><a href="" style="outline: 0; text-decoration: none;">JULES NADEAU</a></li>', 
-		'<li class="blank-element"></li>', 
+		/*'<li class="blank-element"></li>', */
 		'<li class="blank-element"></li>', 
 		'<li style="padding: 0;">Galerie</li>', 
 		{
