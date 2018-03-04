@@ -1,5 +1,5 @@
-const app = {
-	build: (a, b = d => void(d), c = undefined) => {
+class app {
+	static build(a, b = d => void(d), c = undefined) {
 		let nav = [], 
 			container = [], 
 			oc = 0;
@@ -65,13 +65,13 @@ const divShow = d => {
 	Nav.close();
 };
 
-const Nav = {
-	open: () => {
+class Nav {
+	static open() {
 		document.querySelector("div.sidenav").style.width = "250px";
 		document.body.style.backgroundColor = "rgba(0,0,0,0.1)";
-	}, 
-	close: () => {
+	};
+	static close() {
 		document.querySelector("div.sidenav").style.width = "0";
 		document.body.style.backgroundColor = "white";
-	}
+	};
 };
