@@ -35,7 +35,11 @@ div.container {
 	float: right;
 	transition-duration: 0.1s;
 }
-div.nav { position: fixed; }
+div.nav {
+	position: fixed;
+	overflow-y: auto;
+	height: 100%;
+}
 div.container div { padding: 10px; }
 div.element { transition-duration: 0.1s; }
 
