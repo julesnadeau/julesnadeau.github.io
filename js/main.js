@@ -62,7 +62,8 @@ const divShow = d => {
 		.querySelectorAll('li.navnav')
 		.forEach(e => e.classList[e.id == d ? 'add' : 'remove']('current'));
 	
-	Nav.close();
+	if (screen.width <= 500)
+	    Nav.close();
 };
 
 class Nav {
