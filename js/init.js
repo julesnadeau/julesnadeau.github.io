@@ -1,4 +1,4 @@
-(function(a = () => undefined) {
+(function(a) {
 	const xhr = new XMLHttpRequest(), 
 		url = (function() {
 			xhr.open('GET', 'https://api.github.com/repositories/114405908/contents/ressources', false);
@@ -57,9 +57,9 @@
 		}));
 	
 		console.log(retour);
-		return retour;
+		//return retour;
 
-		a(retour);
+		//a(retour);
 	}
 	
 	xhr.open('GET', url, true);
