@@ -60,6 +60,39 @@
 		//return retour;
 
 		//a(retour);
+		/*app.build({
+			elements: [
+				'<li><a href="" style="outline: 0; text-decoration: none;">JULES NADEAU</a></li>', 
+				'<li class="blank-element"></li>', 
+				'<li class="blank-element"></li>', 
+				'<li style="padding: 0;">Galerie</li>', 
+				...retour, 
+				'<li class="blank-element"></li>', 
+				{
+					name: 'À propos', 
+					images: [], 
+					description: `<p style="text-align:left;right:0;line-height:200%;width:90%;">
+	Salut!<br />
+	<br />
+	Étudiant montréalais de 18 ans et photographe à mes heures, 
+	je vous invite à suivre dans mon aventure argentique à travers votre écran.<br />
+	Ce site regroupe l'enssemble de mes roulaux dans un ordre chronologique.
+	<br />
+	Si vous avez des questions ou désirez tout simplement dire bonjour, 
+	n’hésitez pas à me contacter!<br />
+	<br />
+	Pour toutes questions/requêtes, 
+	contactez moi au:<br />
+	<a href="mailto:julesjulesnadeau@yahoo.ca">
+		julesjulesnadeau@yahoo.ca
+	</a>
+</p>`
+				}, 
+				'<li class="blank-element"></li>', 
+				'<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>', 
+				'<li class="blank-element"></li>'
+			]
+		);*/
 	}
 	
 	xhr.open('GET', url, true);
