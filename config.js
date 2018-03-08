@@ -309,6 +309,7 @@ var __config__ = {
 </p>`
 		}, 
 		'<li class="blank-element"></li>', 
-		'<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>'
+		'<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>', 
+		'<li class="blank-element"></li>'
 	]
 };
