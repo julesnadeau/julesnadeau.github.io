@@ -92,7 +92,10 @@
 				'<li><a href="https://www.instagram.com/pangae.a/" target="_blank" class="ms-text" style="font-size: smaller;">Instagram</a></li>', 
 				'<li class="blank-element"></li>'
 			]
-		);*/
+		}, function(n) {
+				if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent))
+					lazyload();
+		}, null);*/
 	}
 	
 	xhr.open('GET', url, true);
