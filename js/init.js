@@ -60,7 +60,7 @@
 		//return retour;
 
 		//a(retour);
-		/*app.build({
+		app.build({
 			elements: [
 				'<li><a href="" style="outline: 0; text-decoration: none;">JULES NADEAU</a></li>', 
 				'<li class="blank-element"></li>', 
@@ -95,7 +95,7 @@
 		}, function(n) {
 				if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent))
 					lazyload();
-		}, null);*/
+		}, null);
 	}
 	
 	xhr.open('GET', url, true);
