@@ -6,7 +6,7 @@ body {
 	background: #FFFFFF;
 	font-family: "sabon lt";
 	margin: 0px;
-	padding: 10px;
+	padding: 50px;
 	color: #000000;
 	transition: 0.5s;
 }
@@ -39,7 +39,10 @@ div.container {
 	float: right;
 	transition-duration: 0.1s;
 }
-div.nav { position: fixed; }
+div.nav {
+	position: fixed;
+	padding: 25px 0 25px 0;
+}
 div.container div { padding: 10px; }
 div.element { transition-duration: 0.1s; }
 
