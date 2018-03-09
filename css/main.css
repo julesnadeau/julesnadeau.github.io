@@ -34,7 +34,7 @@ nav ul li.navnav {
 nav ul li.navnav:hover { color: #FF0000; }
 
 div.container {
-	text-align: center;
+	text-align: right;
 	width: 85%;
 	float: right;
 	transition-duration: 0.1s;
