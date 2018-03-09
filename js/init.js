@@ -57,7 +57,7 @@
 			description: txtRequest[n] || ''
 		}));
 		
-		retour.forEach(function(e) { e.images.map(f => f.replace(/\/\.\//g, '/')); });
+		//retour.forEach(function(e) { e.images.map(f => f.replace(/\/\.\//g, '/')); });
 	
 		console.log(retour);
 		//return retour;
