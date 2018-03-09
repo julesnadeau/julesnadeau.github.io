@@ -44,11 +44,15 @@
 		dir.forEach(function(e) { e.name = base + e.path; });
 	
 		// Get description for each rolls
-		txtRequest = new Array(dir.length).fill(new XMLHttpRequest()).map(function(e, n) {
-			e.open('GET', mainRoot + base + txt[n].path, false);
-			e.send(null);
-			return e.responseText;
-		});
+		txtRequest = new Array(dir.length)
+			.fill("").map(function(e, n) {
+				return `<exec value="const x=new XMLHttpRequest();x.open('GET','" + txt[n].path + "',false);x.send(null);x.responseText;"></exec>`;
+			});
+			/*.fill(new XMLHttpRequest()).map(function(e, n) {
+				e.open('GET', mainRoot + base + txt[n].path, false);
+				e.send(null);
+				return e.responseText;
+			});*/
 	
 		// Render items
 		dir.forEach((e, n) => retour.push({
@@ -96,8 +100,12 @@
 				'<li class="blank-element"></li>'
 			]
 		}, function(n) {
-				if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent))
-					lazyload();
+			document.querySelectorAll('exec').forEach(function(e) {
+				try { e.innerHTML = eval(e.attributes.value.value); }
+				catch(error) { console.error(error); }
+			});
+			if (!/iphone|android|samsung|blackberry/ig.test(navigator.userAgent))
+				lazyload();
 		}, null);
 	}
 	
