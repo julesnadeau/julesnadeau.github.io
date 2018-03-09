@@ -45,14 +45,14 @@
 	
 		// Get description for each rolls
 		txtRequest = new Array(dir.length)
-			.fill("").map(function(e, n) {
+			/*.fill("").map(function(e, n) {
 				return `<exec value="const x=new XMLHttpRequest();x.open('GET','` + mainRoot + base + txt[n].path + `',false);x.send(null);x.responseText;"></exec>`;
-			});
-			/*.fill(new XMLHttpRequest()).map(function(e, n) {
+			});*/
+			.fill(new XMLHttpRequest()).map(function(e, n) {
 				e.open('GET', mainRoot + base + txt[n].path, false);
 				e.send(null);
 				return e.responseText;
-			});*/
+			});
 	
 		// Render items
 		dir.forEach((e, n) => retour.push({
