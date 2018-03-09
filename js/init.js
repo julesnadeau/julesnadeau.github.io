@@ -6,7 +6,8 @@
 			return JSON.parse(xhr.responseText).filter(e => e.name == 'img')[0]._links.git.toString();
 		})() + '?recursive=1', 
 		error = "Error while fetching data from '" + url + "'", 
-		mainRoot = "https://julesnadeau.github.io/", 
+		/*mainRoot = "https://julesnadeau.github.io/", */
+		mainRoot = "https://raw.githubusercontent.com/julesnadeau/julesnadeau.github.io/master/", 
 		base = "./ressources/img/";
 	let json, 
 		files = [], 
