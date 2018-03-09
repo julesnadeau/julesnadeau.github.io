@@ -56,6 +56,8 @@
 			images: thumbnail.filter(f => new RegExp('^' + e.name.replace(/[\.\+\*\?\{\}\,\$\^\=\!]/g, function(g) { return '\\' + g; }), 'g').test(f.name)).map(h => mainRoot + h.name), 
 			description: txtRequest[n] || ''
 		}));
+		
+		retour.images.map(e => e.replace(/\/\.\//g, '/'));
 	
 		console.log(retour);
 		//return retour;
