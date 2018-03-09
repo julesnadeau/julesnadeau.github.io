@@ -80,7 +80,7 @@
 					images: [], 
 					description: `<p style="text-align:left;right:0;line-height:200%;width:90%;">
 Salut!<br /><br />
-Étudiant montréalais de ` + (new Date().getFullYear() - new Date(1999, 9, 22, 12, 0, 0, 0).getFullYear()) + ` ans et photographe à mes heures, 
+Étudiant montréalais de ` + (Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970)) + ` ans et photographe à mes heures, 
 je vous invite à suivre dans mon aventure argentique à travers votre écran.<br />
 Ce site regroupe l'enssemble de mes roulaux dans un ordre chronologique.<br />
 Si vous avez des questions ou désirez tout simplement dire bonjour, 
