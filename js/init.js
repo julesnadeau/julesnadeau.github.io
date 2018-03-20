@@ -82,7 +82,7 @@
 Salut!<br /><br />
 Étudiant montréalais de ` + (Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970)) + ` ans et photographe à mes heures, 
 je vous invite à me suivre dans mon aventure argentique à travers votre écran.<br />
-Ce site regroupe l'enssemble de mes films dans un ordre chronologique.<br />
+Ce site regroupe l'ensemble de mes films dans un ordre chronologique.<br />
 Si vous avez des questions ou désirez tout simplement dire bonjour, 
 n’hésitez pas à me contacter!<br /><br />
 Pour toutes questions/requêtes, 
