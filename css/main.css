@@ -45,6 +45,7 @@ div.nav {
 }
 div.container div { padding: 10px; }
 div.element { transition-duration: 0.1s; }
+div.element > p:last-of-type > span.info { margin-right: 50px; }
 
 h3 {
 	letter-spacing: 3px;
