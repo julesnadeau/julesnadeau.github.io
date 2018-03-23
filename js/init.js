@@ -51,7 +51,7 @@
 			.fill(new XMLHttpRequest()).map(function(e, n) {
 				e.open('GET', mainRoot + base + txt[n].path, false);
 				e.send(null);
-				return e.responseText.replace(/\n$/g, '');
+				return e.responseText.split('').filter(e => e.charCodeAt(0) <= 256).join('');
 			});
 	
 		// Render items
