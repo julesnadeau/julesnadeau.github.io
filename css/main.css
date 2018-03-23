@@ -3,11 +3,11 @@
 	background: transparent;
 }
 body {
-	background: #FFFFFF;
+	background: rgba(255, 255, 255, 1);
 	font-family: "sabon lt";
 	margin: 0px;
 	padding: 50px;
-	color: #000000;
+	color: rgba(0, 0, 0, 1);
 	transition: 0.5s;
 }
 
@@ -31,7 +31,7 @@ nav ul li.navnav {
 	cursor: pointer;
 	transition-duration: 0.1s;
 }
-nav ul li.navnav:hover { color: #FF0000; }
+nav ul li.navnav:hover { color: rgba(255, 0, 0, 1); }
 
 div.container {
 	text-align: right;
@@ -70,7 +70,7 @@ a {
 	text-decoration: none;
 }
 
-p { color: #777777; }
+p { color: rgba(119, 119, 119, 1); }
 
 input.form {
 	width: 750px;
@@ -79,7 +79,7 @@ input.form {
 }
 input[type=button], input[type=submit] { border: 1px solid black; }
 input[type=button]:hover, input[type=submit]:hover {
-	background: #770000;
+	background: rgba(119, 0, 0, 1);
 	cursor: pointer;
 }
 
@@ -108,7 +108,7 @@ form input {
 	padding: 3px;
 }
 #openNav:hover {
-	background: #EEEEEE;
+	background: rgba(238, 238, 238, 1);
 	cursor: pointer;
 }
 
@@ -119,8 +119,8 @@ form input {
 	opacity: 75%;
 	font-family: monospace;
 }
-.current { color: #990000; }
-.ms-text { color: #555555; }
+.current { color: rgba(153, 0, 0, 1); }
+.ms-text { color: rgba(85, 85, 85, 1); }
 .footer {
 	position: absolute;
 	bottom: 0;
@@ -145,7 +145,7 @@ form input {
 		overflow-x: hidden;
 		transition: 0.5s;
 		padding-top: 60px;
-		background: #FFFFFF;
+		background: rgba(255, 255, 255, 1);
 		border-right: 1px solid rgba(0, 0, 0, 0.1);
 	}
 	.sidenav a {
