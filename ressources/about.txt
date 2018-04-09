@@ -7,5 +7,5 @@
 	n’hésitez pas à me contacter!<br /><br />
 	Pour toutes questions/requêtes, 
 	contactez moi au:<br />
-	<a href="mailto:julesjulesnadeau@yahoo.ca">julesjulesnadeau@yahoo.ca</a>
+	<a href="mailto:julesjulesnadeau@yahoo.ca" target="_blank">julesjulesnadeau@yahoo.ca</a>
 </p>
