@@ -1,155 +1,155 @@
 /* START defining variables */
-			:root {
-				--navbar-ul-default-padding: 40px;
-			}
-			/* END defining variables */
+:root {
+	--navbar-ul-default-padding: 40px;
+}
+/* END defining variables */
 
-			/* START of general styling */
-			body { font-family: "sabon lt"; }
-			a {
-				color: inherit;
-				text-decoration: none;
-			}
-			a:visited { color: inherit; }
-			ul { padding: 0; }
-			/* END of general styling */
+/* START of general styling */
+body { font-family: "sabon lt"; }
+a {
+	color: inherit;
+	text-decoration: none;
+}
+a:visited { color: inherit; }
+ul { padding: 0; }
+/* END of general styling */
 
-			/* START of grid formatting */
-			div.wrapper {
-				display: grid;
-				grid-template-columns: 1fr 3fr;
-				grid-auto-rows: minmax(50px, auto);
-				grid-template-areas: "side container";
-				height: 100%;
-			}
-			div.wrapper > div.side {
-				display: grid;
-				grid-template-rows: 100px auto;
-				grid-template-areas: "headerName"
-									 "nav       ";
-				position: fixed;
-			}
-			div.wrapper > div, div.wrapper > div.side > div { border: none; }
-			div.side { grid-area: side; }
-			div.header-name { grid-area: headerName; }
-			div.nav { grid-area: nav; }
-			div.container { grid-area: container; }
-			/* END of grid formatting */
+/* START of grid formatting */
+div.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-auto-rows: minmax(50px, auto);
+	grid-template-areas: "side container";
+	height: 100%;
+}
+div.wrapper > div.side {
+	display: grid;
+	grid-template-rows: 100px auto;
+	grid-template-areas: "headerName"
+						 "nav       ";
+	position: fixed;
+}
+div.wrapper > div, div.wrapper > div.side > div { border: none; }
+div.side { grid-area: side; }
+div.header-name { grid-area: headerName; }
+div.nav { grid-area: nav; }
+div.container { grid-area: container; }
+/* END of grid formatting */
 
-			/* START of div.side styling */
-			div.side { padding-left: 50px; }
-			/* END of div.side styling */
+/* START of div.side styling */
+div.side { padding-left: 50px; }
+/* END of div.side styling */
 
-			/* START of div.header-name styling */
-			div.header-name {
-				text-transform: uppercase;
-				outline: 0;
-				font-size: smaller;
-				margin-top: 50px;
-				text-align: left;
-			}
-			div.header-name a {
-				text-decoration: none;
-				color: black;
-			}
-			/* END of div.header-name styling */
+/* START of div.header-name styling */
+div.header-name {
+	text-transform: uppercase;
+	outline: 0;
+	font-size: smaller;
+	margin-top: 50px;
+	text-align: left;
+}
+div.header-name a {
+	text-decoration: none;
+	color: black;
+}
+/* END of div.header-name styling */
 
-			/* START of div.side styling */
-			div.side { background-color: white; }
-			/* END of div.side styling */
+/* START of div.side styling */
+div.side { background-color: white; }
+/* END of div.side styling */
 
-			/* START of navbar styling */
-			div.nav { text-align: left; }
-			div.nav > a {
-				border-radius: 15%;
-				border: 1px solid #777777;
-				font-size: x-large;
-				padding: 3px;
-			}
-			div.nav > a:hover {
-				background-color: rgb(238, 238, 238);
-				cursor: pointer;
-			}
-			div.nav > nav { transition-duration: 1s; }
-			div.nav > nav > a {
-				font-size: xx-large;
-				position: absolute;
-				top: 0;
-				left: 20px;
-			}
-			div.nav > nav > a:hover { cursor: pointer; }
-			ul#parent, ul#parent >li > ul { list-style-type: none; }
-			ul#parent li {
-				min-width: 100px;
-				width: auto;
-				padding: 5px 0 5px 0;
-				white-space: nowrap;
-			}
-			ul#parent > li.sub { display: none; }
-			ul#parent > li.par { padding-left: 10px; }
-			ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { cursor: pointer; }
-			ul#parent li {
-				font-size: smaller;
-				letter-spacing: 1px;
-			}
-			ul#parent > li.par:not(.selec)::before { content: "\\"; }
-			ul#parent > li.selec.par::before { content: "/"; }
-			ul#parent > li.par.selec, ul#parent > li.sub > ul > li.selec {
-				color: rgb(153, 0, 0);
-				font-weight: bolder;
-			}
-			ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(255, 0, 0); }
-			ul#parent > li.sub > ul > li::before { content: "/"; }
-			ul#parent > li:last-of-type a {
-				color: rgb(85, 85, 85);
-				font-size: smaller;
-			}
-			ul#parent > li.sub > ul { padding-left: var(--navbar-ul-default-padding); }
-			@media screen and (max-width: 500px) {
-				div.nav > nav { display: none; }
-			}
-			@media screen and (min-width: 500px) {
-				div.nav > a { display: none; }
-				div.nav > nav > a { display: none; }
-			}
-			/* END of navbar styling */
+/* START of navbar styling */
+div.nav { text-align: left; }
+div.nav > a {
+	border-radius: 15%;
+	border: 1px solid #777777;
+	font-size: x-large;
+	padding: 3px;
+}
+div.nav > a:hover {
+	background-color: rgb(238, 238, 238);
+	cursor: pointer;
+}
+div.nav > nav { transition-duration: 1s; }
+div.nav > nav > a {
+	font-size: xx-large;
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+div.nav > nav > a:hover { cursor: pointer; }
+ul#parent, ul#parent >li > ul { list-style-type: none; }
+ul#parent li {
+	min-width: 100px;
+	width: auto;
+	padding: 5px 0 5px 0;
+	white-space: nowrap;
+}
+ul#parent > li.sub { display: none; }
+ul#parent > li.par { padding-left: 10px; }
+ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { cursor: pointer; }
+ul#parent li {
+	font-size: smaller;
+	letter-spacing: 1px;
+}
+ul#parent > li.par:not(.selec)::before { content: "\\"; }
+ul#parent > li.selec.par::before { content: "/"; }
+ul#parent > li.par.selec, ul#parent > li.sub > ul > li.selec {
+	color: rgb(153, 0, 0);
+	font-weight: bolder;
+}
+ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(255, 0, 0); }
+ul#parent > li.sub > ul > li::before { content: "/"; }
+ul#parent > li:last-of-type a {
+	color: rgb(85, 85, 85);
+	font-size: smaller;
+}
+ul#parent > li.sub > ul { padding-left: var(--navbar-ul-default-padding); }
+@media screen and (max-width: 500px) {
+	div.nav > nav { display: none; }
+}
+@media screen and (min-width: 500px) {
+	div.nav > a { display: none; }
+	div.nav > nav > a { display: none; }
+}
+/* END of navbar styling */
 
-			/* START of div.container styling */
-			div.container {
-				text-align: right;
-				padding-right: 50px;
-				margin-top: 50px;
-			}
-			div.container img {
-				width: 50%;
-				height: auto;
-				margin-top: 10px;
-				margin-bottom: 10px;
-				pointer-events: none;
-			}
-			div.container p { color: rgb(119, 119, 119); }
-			div.container > p.info { font-family: monospace; }
-			div.container > div#about p {
-				line-height: 200%;
-				text-align: left;
-			}
-			div.container > div#about img {
-				filter: grayscale(100%);
-				width: 75%;
-				height: auto;
-				margin-left: auto;
-				margin-right: auto;
-				padding: 10px;
-				box-shadow: 5px 5px 25px black, -5px -5px 25px rgba(0, 0, 0, 0.5);
-				border-radius: 5px;
-			}
-			/* END of div.container styling */
+/* START of div.container styling */
+div.container {
+	text-align: right;
+	padding-right: 50px;
+	margin-top: 50px;
+}
+div.container img {
+	width: 50%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	pointer-events: none;
+}
+div.container p { color: rgb(119, 119, 119); }
+div.container > p.info { font-family: monospace; }
+div.container > div#about p {
+	line-height: 200%;
+	text-align: left;
+}
+div.container > div#about img {
+	filter: grayscale(100%);
+	width: 75%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	box-shadow: 5px 5px 25px black, -5px -5px 25px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+/* END of div.container styling */
 
-			/* START of div#about styling */
-			div#about {
-				display: grid;
-				grid-template-columns: 1fr 1fr;
-			}
-			div#about > div:first-of-type { text-align: center; }
-			div#about > div:last-of-type { text-align: left; }
-			/* END of div#about styling */
+/* START of div#about styling */
+div#about {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+div#about > div:first-of-type { text-align: center; }
+div#about > div:last-of-type { text-align: left; }
+/* END of div#about styling */
