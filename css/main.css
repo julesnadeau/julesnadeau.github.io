@@ -5,7 +5,10 @@
 /* END defining variables */
 
 /* START of general styling */
-body { font-family: "sabon lt"; }
+body {
+	font-family: "sabon lt";
+	background-color: white;
+}
 a {
 	color: inherit;
 	text-decoration: none;
@@ -37,7 +40,10 @@ div.container { grid-area: container; }
 /* END of grid formatting */
 
 /* START of div.side styling */
-div.side { padding-left: 50px; }
+div.side {
+	padding-left: 50px;
+	background-color: transparent;
+}
 /* END of div.side styling */
 
 /* START of div.header-name styling */
@@ -53,10 +59,6 @@ div.header-name a {
 	color: black;
 }
 /* END of div.header-name styling */
-
-/* START of div.side styling */
-div.side { background-color: white; }
-/* END of div.side styling */
 
 /* START of navbar styling */
 div.nav { text-align: left; }
@@ -119,6 +121,7 @@ div.container {
 	text-align: right;
 	padding-right: 50px;
 	margin-top: 50px;
+	background-color: transparent;
 }
 div.container img {
 	width: 60%;
