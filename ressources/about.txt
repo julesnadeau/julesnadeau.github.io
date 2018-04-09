@@ -1,4 +1,5 @@
 <p>
+	<img src="https://raw.githubusercontent.com/julesnadeau/julesnadeau.github.io/master/ressources/jules.jpg" />
 	Salut!<br /><br />
 	Étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans et photographe à mes heures, 
 	je vous invite à me suivre dans mon aventure argentique à travers votre écran.<br />
