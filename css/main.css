@@ -100,7 +100,7 @@ ul#parent > li.par.selec, ul#parent > li.sub > ul > li.selec {
 	color: rgb(255, 165, 171);
 	font-weight: bolder;
 }
-ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(255, 229, 227); }
+ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(252, 169, 196); }
 ul#parent > li.sub > ul > li::before { content: "/"; }
 ul#parent > li:last-of-type a {
 	color: rgb(85, 85, 85);
