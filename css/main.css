@@ -97,7 +97,7 @@ ul#parent li {
 ul#parent > li.par:not(.selec)::before { content: "\\"; }
 ul#parent > li.selec.par::before { content: "/"; }
 ul#parent > li.par.selec, ul#parent > li.sub > ul > li.selec {
-	color: rgb(153, 0, 0);
+	color: rgb(255, 165, 171);
 	font-weight: bolder;
 }
 ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(255, 0, 0); }
