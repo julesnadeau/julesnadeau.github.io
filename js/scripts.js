@@ -3,7 +3,7 @@ class App {
 	static Init() {
 		navbar_items.forEach(e => App.AddItemToNavbar(e));
 		App.TriggerClickableNavBar();
-		App.LoadTab(App.URLGetParameterByName("roll") || "001"/*"000"*/);
+		App.LoadTab(App.URLGetParameterByName("roll") || images[images.length - 1].split("/")[0] || "001"/*"000"*/);
 	}
 	
 	// Code to add items to navbar
