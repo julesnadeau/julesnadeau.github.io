@@ -1,6 +1,6 @@
  <p>
  	Salut!<br /><br />
- 	Étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à mes heures, 	
+ 	Étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à mes heures.<br /> 	
 	Je vous invite à me suivre dans mon aventure argentique à travers votre écran. Ce site web regroupe, en ordre 		chronologique, l'ensemble de mes films.<br />
 	Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez 		pas à me contacter.  J’aime vous entendre.<br /><br />
 	Jules<br />
