@@ -105,6 +105,7 @@ class App {
 			lazyload();
 		
 		App.AdjustPageTitle(name);
+		App.AdjustPageURL(name);
 		
 		App.Log(`Loaded tab "` + name + `"`);
 	}
@@ -153,6 +154,11 @@ class App {
 	// Code to adjust page title
 	static AdjustPageTitle(name) {
 		document.title = base_document_title + " | " + name;
+	}
+	
+	// Code to adjust page URL
+	static AdjustPageURL(name) {
+		window.history.pushState(name, "Roll " + name, "?roll=" + name);
 	}
 	
 	// Code to adapt navbar styling
