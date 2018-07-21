@@ -188,7 +188,7 @@ const images = files.filter(e => /(\.jpg$)|(\.jpeg$)|(\.png$)/g.test(e.path)).fi
 const text = files.filter(e => /(description\.txt$)/g.test(e.path)).map(e => e.path);
 
 var navbar_items = [
-	"<li>Galerie</li>", 
+	"<li>Pellicules</li>", 
 	...folder_repository, 
 	"<li></li>", 
 	`<li class="spe item" data-target="../about.txt">À propos</li>`, 
