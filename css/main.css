@@ -80,33 +80,39 @@ div.nav > nav > a {
 	left: 20px;
 }
 div.nav > nav > a:hover { cursor: pointer; }
-ul#parent, ul#parent >li > ul { list-style-type: none; }
-ul#parent li {
+#parent, 
+#parent >li > ul { list-style-type: none; }
+#parent li {
 	min-width: 100px;
 	width: auto;
 	padding: 5px 0 5px 0;
 	white-space: nowrap;
 }
-ul#parent > li.sub { display: none; }
-ul#parent > li.par { padding-left: 10px; }
-ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { cursor: pointer; }
-ul#parent li {
+#parent > li.sub { display: none; }
+#parent > li.par { padding-left: 10px; }
+#parent > li.par:hover, 
+#parent > li.sub > ul > li:hover, 
+#parent > li.spe:hover { cursor: pointer; }
+#parent li {
 	font-size: smaller;
 	letter-spacing: 1px;
 }
-ul#parent > li.par:not(.selec)::before { content: "\\"; }
-ul#parent > li.selec.par::before { content: "/"; }
-ul#parent > li.par.selec, ul#parent > li.sub > ul > li.selec {
+#parent > li.par:not(.selec)::before { content: "\\"; }
+#parent > li.selec.par::before { content: "/"; }
+#parent > li.par.selec, 
+#parent > li.sub > ul > li.selec {
 	color: rgb(255, 165, 171);
 	font-weight: bolder;
 }
-ul#parent > li.par:hover, ul#parent > li.sub > ul > li:hover, ul#parent > li.spe:hover { color: rgb(255, 205, 202); }
-ul#parent > li.sub > ul > li::before { content: "/"; }
-ul#parent > li:last-of-type a {
+#parent > li.par:hover, 
+#parent > li.sub > ul > li:hover, 
+#parent > li.spe:hover { color: rgb(255, 205, 202); }
+#parent > li.sub > ul > li::before { content: "/"; }
+#parent > li:last-of-type a {
 	color: rgb(85, 85, 85);
 	font-size: smaller;
 }
-ul#parent > li.sub > ul { padding-left: var(--navbar-ul-default-padding); }
+#parent > li.sub > ul { padding-left: var(--navbar-ul-default-padding); }
 @media screen and (max-width: 500px) {
 	div.nav > nav { display: none; }
 }
@@ -132,11 +138,11 @@ div.container img {
 }
 div.container p { color: rgb(119, 119, 119); }
 div.container > p.info { font-family: monospace; }
-div.container > /*div#about*/ p:not(.info) {
+div.container > /*#about*/ p:not(.info) {
 	line-height: 200%;
 	text-align: left;
 }
-div.container > div#about img {
+div.container > #about img {
 	filter: grayscale(100%);
 	width: 75%;
 	height: auto;
@@ -149,10 +155,10 @@ div.container > div#about img {
 /* END of div.container styling */
 
 /* START of div#about styling */
-div#about {
+#about {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-div#about > div:first-of-type { text-align: center; }
-div#about > div:last-of-type { text-align: left; }
+#about > div:first-of-type { text-align: center; }
+#about > div:last-of-type { text-align: left; }
 /* END of div#about styling */
