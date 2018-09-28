@@ -1,7 +1,7 @@
  <p>
  	Salut!<br /><br />
 	L'indiférence est un mythe. Nous éprouvons constamment des sentiments, forts ou faibles, face à notre environnement. La photographie nous permet de prendre conscience de ces sentiments. Elle nous force à cerner ceux dont nous désirons garder une trace. (C'est pas moi qui a dit ça et j'écris pas très bien. J'y fais pas justice mais je l'aime quand même)<br />
-	Je vous invite donc à découvrir les sentiments d'un étudiant photographe à ses heures)montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br /> 
+	Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br /> 
 	Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
 	Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).  J’aime vous entendre (J'aimerais serait plus juste).<br /><br />
 	Jules<br />
