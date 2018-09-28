@@ -1,11 +1,11 @@
  <p>
  	Salut!<br /><br />
-		Selon Mark Cohen, l'indiférence est un mythe. Qu'il soit forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de prendre conscience de ces sentiments. Inconsciemment, nous cherchons à conserver ceux qui nous frappe (J'écris pas très bien et je lui rend pas justice mais je peux pas faire mieux)<br />
-		Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br /> 
-		Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
-		Il commence à être lourd et incompréhensible mais je crois que ça me représente en quelque sorte.<br />
-		Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).  J’aime vous entendre (J'aimerais serait plus juste).<br /><br />
+	          Selon Mark Cohen, l'indiférence est un mythe. Qu'il soit forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de prendre conscience de ces sentiments. Inconsciemment, nous cherchons à conserver ceux qui nous frappe (J'écris pas très bien et je lui rend pas justice mais je peux pas faire mieux)<br />
+	          Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br /> 
+	          Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
+	          Il commence à être lourd et incompréhensible mais je crois que ça me représente en quelque sorte.<br />
+	          Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).  J’aime vous entendre (J'aimerais serait plus juste).<br /><br />
 	Jules<br />
  	<a href="mailto:julesjulesnadeau@yahoo.ca" target="_blank">julesjulesnadeau@yahoo.ca</a><br /><br />
-		Ça à pas vraiment rapport avec quoi que ce soit, mais la période de latence c'est le terme qui désigne le moment où un film est exposé mais pas encore développé. J'aime beaucoup ça. Je sais pas pourquoi.
+	          Ça à pas vraiment rapport avec quoi que ce soit, mais la période de latence c'est le terme qui désigne le moment où un film est exposé mais pas encore développé. J'aime beaucoup ça. Je sais pas pourquoi.
  </p>
