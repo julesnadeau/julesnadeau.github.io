@@ -4,7 +4,8 @@
 	Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br />
 	Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
 	Il commence à être lourd et incompréhensible mais je crois que ça me représente en quelque sorte.<br />
-	J'ai essayé fort fort de mettre le texte en justifié en passant, mais j'arrives pas. Le htlm c'est pas mon truc. C'est celui de Paul, et il veut pas m'aider.<br />
+	Il manque des trucs aussi. Genre de 41 à 47 c'est mon voyage à Barcelone, mais je suis mauvais et j'ai tout raté. (J'ai plein pleuré)<br />
+	J'ai essayé fort fort de mettre le texte en justifié en passant, mais j'arrives pas. Le html c'est pas mon truc. C'est celui de Paul, et il veut pas m'aider.<br />
 	Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).<br />
 	J’aime vous entendre (J'aimerais serait plus juste en fait).<br /><br />
 	Jules<br />
