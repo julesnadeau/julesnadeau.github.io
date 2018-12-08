@@ -1,4 +1,4 @@
- <div>
+
  	Salut!<br /><br />
  	Selon Mark Cohen, l'indifférence est un mythe. Qu'ils soient forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de matérialiser ces sentiments. Inconsciemment, nous cherchons à conserver ceux qui nous frappent (J'écris pas très bien et je lui rend pas justice mais je peux pas faire mieux).<br />
 	Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br />
@@ -10,4 +10,4 @@
 	Jules<br />
  	<a href="mailto:julesjulesnadeau@yahoo.ca" target="_blank">julesjulesnadeau@yahoo.ca</a><br /><br />
 	Ça à pas vraiment rapport avec quoi que ce soit, mais la période de latence c'est le terme qui désigne le moment où un film est exposé mais pas encore développé. J'aime beaucoup ça. Je sais pas pourquoi.
- </div>
+
