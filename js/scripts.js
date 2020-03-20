@@ -193,7 +193,7 @@ var navbar_items = [
 	"<li></li>", 
 	`<li class="spe item" data-target="../about.txt">À propos</li>`, 
 	"<li></li>", 
-	`<li><a href="https://www.instagram.com/pangae.a/" target="_blank">Instagram</a></li>`
+	`<li><a href="https://www.instagram.com/jules.nadeau/" target="_blank">Instagram</a></li>`
 ];
 
 App.Init(); // Main assembling method
