@@ -160,5 +160,5 @@ div.container > #about img {
 	grid-template-columns: 1fr 1fr;
 }
 #about > div:first-of-type { text-align: center; }
-#about > div:last-of-type { text-align: left; }
+#about > div:last-of-type { text-align: center; }
 /* END of div#about styling */
