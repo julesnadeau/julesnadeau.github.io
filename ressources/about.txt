@@ -1,12 +1,12 @@
 <div>
  	Salut!<br /><br />
- 	Selon Mark Cohen, l'indifférence est un mythe. Qu'ils soient forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de matérialiser ces sentiments. Inconsciemment, nous cherchons à conserver ceux qui nous frappent (J'écris pas très bien et je lui rend pas justice mais je peux pas faire mieux).<br />
+ 	Selon Mark Cohen, l'indifférence est un mythe. Qu'ils soient forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de matérialiser les plus forts (J'écris pas très bien et je lui rend pas justice, mais je peux pas faire mieux).<br />
 	Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br />
 	Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
-	Je compte faire ça jusqu'à 100. Après on verra.<br />
+	Je compte faire ça jusqu'à environ 100. Après, on verra.<br />
 	Il commence à être lourd et incompréhensible mais je crois que ça me représente en quelque sorte.<br />
-	Il manque des trucs aussi. Genre de 41 à 47 c'est mon voyage à Barcelone, mais je suis mauvais et j'ai tout raté. (J'ai plein pleuré)<br />
-	J'ai essayé fort fort de mettre le texte en justifié en passant, mais j'arrives pas. Le html c'est pas mon truc. C'est celui de Paul, et il veut pas m'aider.<br />
+	Il manque des trucs aussi. De 41 à 47 c'est mon voyage à Barcelone, mais j'ai tout perdu. (J'ai pleuré)<br />
+	J'ai essayé fort de justifié le texte en passant, mais j'arrives pas.<br />
 	Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).<br />
 	J’aime vous entendre (J'aimerais serait plus juste en fait).<br /><br />
 	Jules<br />
