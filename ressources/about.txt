@@ -1,17 +1,11 @@
 <div>
- 	Salut!<br /><br />
- 	Selon Mark Cohen, l'indifférence est un mythe. Qu'ils soient forts ou faibles, nous éprouvons des sentiments par rapport à tout. La photographie nous permet de matérialiser les plus forts (J'écris pas très bien et je lui rend pas justice, mais je peux pas faire mieux).<br />
-	Je vous invite donc à découvrir les sentiments d'un étudiant montréalais de <exec value="(Math.abs(new Date(new Date() - new Date(1999, 9, 22, 12, 0, 0, 0)).getFullYear() - 1970))"></exec> ans, photographe à ses heures (moi).<br />
-	Ce site (que j'ai extorqué de Paul-Louis) présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films.<br />
-	Je compte faire ça jusqu'à environ 100. Après, on verra.<br />
-	Il commence à être lourd et incompréhensible mais je crois que ça me représente en quelque sorte.<br />
-	Il manque des trucs aussi. De 41 à 47 c'est mon voyage à Barcelone, mais j'ai tout perdu. (J'ai pleuré)<br />
-	J'ai essayé fort de justifier le texte en passant, mais j'arrives pas.<br />
-	Si vous avez des questions, des commentaires, des insultes ou si vous désirez tout simplement dire bonjour, n’hésitez pas à me contacter (même si personne l'a jamais fait).<br />
-	J’aime vous entendre (J'aimerais serait plus juste en fait).<br /><br />
+	Je vous invite à découvrir les sentiments d'un étudiant montréalais d'un peu moins de 20 ans, photographe à ses heures (moi).<br />
+	Ce site présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films. Jusqu'à ce que je me tanne.<br />
+	Il est lourd et pas trop clair et il manque des trucs. De 41 à 47 c'est mon voyage à Barcelone, mais j'ai tout perdu. (J'ai pleuré). Mais c'est ça.<br />
+	
 	Jules<br />
  	<a href="mailto:julesjulesnadeau@yahoo.ca" target="_blank">julesjulesnadeau@yahoo.ca</a><br /><br />
-	Ça à pas vraiment rapport avec quoi que ce soit, mais la période de latence c'est le terme qui désigne le moment où un film est exposé mais pas encore développé. J'aime beaucoup ça. Je sais pas pourquoi.
+	Ça à pas rapport avec quoi que ce soit, mais la période de latence c'est le terme qui désigne le moment où un film est exposé mais pas encore développé.
  </div>
 
 
