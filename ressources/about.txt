@@ -1,7 +1,7 @@
 <div>
 	Je vous invite à découvrir les sentiments d'un étudiant montréalais d'un peu moins de 20 ans, photographe à ses heures (moi).<br />
 	Ce site présente mon aventure argentique. Il regroupe, en ordre chronologique, l'ensemble de mes films. Jusqu'à ce que je me tanne.<br />
-	Il est lourd et pas trop clair et il manque des trucs. De 41 à 47 c'est mon voyage à Barcelone, mais j'ai tout perdu. (J'ai pleuré). Mais c'est ça.<br />
+	Il est lourd, pas trop clair et il manque des trucs. De 41 à 47 c'est mon voyage à Barcelone, mais j'ai tout perdu. (J'ai pleuré). Mais c'est ça.<br />
 	
 	Jules<br />
  	<a href="mailto:julesjulesnadeau@yahoo.ca" target="_blank">julesjulesnadeau@yahoo.ca</a><br /><br />
